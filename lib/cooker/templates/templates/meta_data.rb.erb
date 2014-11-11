@@ -1,0 +1,10 @@
+
+name             '<%= @data[:name] %>'
+maintainer       '<%= @data[:maintainer]%>'
+maintainer_email '<%= @data[:email] %>'
+license          '<%= @data[:licence] %>'
+description      '<%= @data[:description] %>'
+version			     '<%= @data[:description] %>'
+
+<% @data[:dependencies].each do |dependency| %><%= \"depends '#{dependency}'\" %>
+<% end %>
