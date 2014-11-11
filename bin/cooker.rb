@@ -1,1 +1,1 @@
-cooker.rb
+#!/usr/bin/env ruby
